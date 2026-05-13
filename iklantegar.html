@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pure Cycle - Sentuhan Tangan Terampil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color: #a3b18a;
+            color: #fff;
+            text-align: left;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .table-container {
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #a3b18a;
+            color: white;
+        }
+        .advertisement {
+            text-align: center;
+        }
+        .advertisement img {
+            max-width: 100%;
+            height: auto;
+        }
+        .money {
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Pure Cycle</h1>
+            <p>Sentuhan Tangan Terampil</p>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>LANGKAH - LANGKAH</th>
+                        <th>RUMUS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>I. Membuat model matematika dari soal cerita</td>
+                        <td>
+                            <span class="money">$</span>x + y + z = 300.000 <span class="money">$</span> (pers 1)<br>
+                            <span class="money">$</span>x + y + 4z = 500.000 <span class="money">$</span> (pers 2)<br>
+                            <span class="money">$</span>2x + 3y + 2z = 460.000 <span class="money">$</span> (pers 3)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>II. Eliminasi persamaan 2 dan 1</td>
+                        <td>
+                            <span class="money">$</span>x + y + 4z = 500.000 <span class="money">$</span><br>
+                            <span class="money">$</span>x + y + z = 300.000 <span class="money">$</span><br>
+                            3<span class="money">$</span>z = 200.000 <span class="money">$</span> implies z = 100.000
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>III. Substitusikan nilai <span class="money">$</span>z<span class="money">$</span> ke pers 1 dan 3</td>
+                        <td>
+                            Pers (1): <span class="money">$</span>x + y + 100.000 = 300.000 <span class="money">$</span> implies x + y = 200.000<span class="money">$</span><br>
+                            Pers (3): <span class="money">$</span>2x + 3y + 2(100.000) = 460.000 <span class="money">$</span> implies 2x + 3y = 260.000
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>IV. Eliminasi persamaan 4 dan 5</td>
+                        <td>
+                            <span class="money">$</span>2x + 2y = 400.000 <span class="money">$</span> (<span class="money">$</span>4 times 2<span class="money">$</span>)<br>
+                            <span class="money">$</span>2x + 3y = 260.000 <span class="money">$</span><br>
+                            y = 60.000
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>V. Substitusikan nilai <span class="money">$</span>y<span class="money">$</span> ke pers 4</td>
+                        <td>
+                            <span class="money">$</span>x + 60.000 = 200.000 <span class="money">$</span> implies x = 140.000<span class="money">$</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>VI. Himpunan Penyelesaian</td>
+                        <td>
+                            HP = {(<span class="money">$</span>140.000, 60.000, 100.000<span class="money">$</span>)}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="advertisement">
+            <h2>ADVERTISEMENT</h2>
+            <!-- Ganti URL di bawah ini dengan URL gambar advertisement Anda -->
+            <img src="img/bundling tegar.jpeg" alt="Advertisement" style="width: 400px;">
+        </div>
+    </div>
+</body>
+</html>
